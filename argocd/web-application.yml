@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/Chirag21-dev/3tier-githubactions-cd.git
     targetRevision: main
-    path: deployment
+    path: Manifests/deployment.yml
 
   destination:
     server: https://kubernetes.default.svc
